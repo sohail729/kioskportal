@@ -1,0 +1,16 @@
+.admin_login {
+    min-height: 450px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.addon_icon {display: block;padding: 8px 6px 0;}
+
+
+@media only screen and (max-width : 533px) {
+    .admin_login {
+        width: 90%;
+    }   
+}

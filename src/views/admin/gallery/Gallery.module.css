@@ -1,0 +1,65 @@
+.listing__header {
+    min-height: 150px;
+    background: #093171;
+    color: #fff;
+    padding: 30px 0 0;
+}
+
+.listing__body {
+    position: relative;
+    margin-top: -30px;
+    border-radius: 30px;
+    background-color: #fff;
+    padding: 20px 30px;
+    box-shadow: 0 20px 20px -6px #ddd;
+}
+.btn_add_user {
+    margin-right: 15px;
+    background-color: #093171;
+    min-width: 150px;
+}
+.btn_add_user svg {
+    position: relative;
+    top: 2px;
+}
+
+
+.videobox {
+    width: 14.6%;
+    margin: 1%;
+    padding: 0;
+}
+
+.videobox__img {
+    background: #000;
+    position: relative;
+    height: 110px;
+    text-align: center;
+}
+
+.videobox__img img {
+    max-width: 100%;
+    opacity: .5;
+    object-fit: cover;
+    max-height: 100%;
+}
+
+.btn_add_user svg {
+    position: relative;
+    top: 4px;
+    font-size: 18px;
+}
+
+.videobox__cont {
+    text-align: center;
+    font-size: 15px;
+}
+
+.svgIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+

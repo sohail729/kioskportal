@@ -1,0 +1,112 @@
+.login-card {
+    min-height: 50vh;
+}
+
+.registerMessage {
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+.registerMessage .loginText {
+    text-decoration: underline;
+}
+
+.login-card .btn {
+    width: 100%;
+}
+
+.login__header {
+    background-color: #093171;
+    color: #fff;
+    max-width: 100%;
+    width: 100%;
+    min-height: 100px;
+    padding: 15px 0 50px;
+}
+
+.login-card {
+    padding: 0;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 0;
+    min-width: 480px;
+    box-shadow: 0 10px 40px 10px #eaeaea;
+}
+
+.login-card .form {
+    padding: 40px 40px 50px;
+    width: 100%;
+    background: #fff;
+    border-radius: 30px;
+    position: relative;
+    margin-top: -40px;
+}
+
+a.forgot_password {
+    color: inherit;
+    text-decoration: none;
+    text-align: right;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+button.forgot_password {
+    background: transparent;
+    border: 0;
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    float: right;
+}
+
+button.forgot_password:hover {
+    cursor: pointer;
+}
+
+span.input-group-addon {
+    padding: 10px 2px;
+    line-height: 14px;
+}
+
+.input-group {
+    background-color: #F2F2F2;
+    border-color: transparent;
+    padding: 0px 5px;
+    border-radius: 4px;
+}
+.input-group .form-control {
+    border: 0;
+    background-color: transparent;
+}
+
+.login__header h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.login__header p {
+    font-size: 16px;
+}
+
+.login-card .form-control {
+    font-size: 14px;
+}
+
+@media only screen and (max-width : 533px) {
+    .login-card {
+        width:100%;
+        min-width: 100%;
+    }
+}
+@media only screen and (max-width : 380px) {
+    .login-card .form {
+        padding: 20px 20px 30px;
+    }
+}
+

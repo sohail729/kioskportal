@@ -1,0 +1,54 @@
+a {
+    text-decoration: none;
+}
+a:hover {
+    cursor: pointer;
+}
+
+.videoModalInfo {
+    display: flex;
+    position: relative;
+}
+
+.videoModalLabel {min-width: 80px;}
+
+.cont {
+    padding: 10px 30px;
+}
+
+.btnUpdate {
+    width: 280px !important;
+    margin: 0 auto;
+    float: none;
+}
+
+
+.formControlRange {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.formControlValue {
+    font-size: 11px;
+    position: absolute;
+    left: calc( 57% );
+    top: -10px;
+    background: #0075ff;
+    line-height: 8px;
+    padding: 4px 4px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+
+.input {
+    width: 100%;
+    background-image: url("/input_range_bg.png");
+    background-size: 100%  100%;
+}
+
+.input input {
+    padding-top: 0;
+    position: relative;
+    top: 10px;
+}
